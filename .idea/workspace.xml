@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dc649d9-3dcf-417e-8c37-973a47058255" name="Default Changelist" comment="" />
+    <list default="true" id="9dc649d9-3dcf-417e-8c37-973a47058255" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -129,6 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -164,6 +172,8 @@
       <workItem from="1576745731564" duration="34269000" />
       <workItem from="1577017962899" duration="551000" />
       <workItem from="1577019489890" duration="1315000" />
+      <workItem from="1577049924670" duration="790000" />
+      <workItem from="1577054071203" duration="370000" />
     </task>
     <servers />
   </component>
@@ -175,10 +185,14 @@
       <screen x="67" y="27" width="1853" height="923" />
     </state>
     <state x="705" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.923@67.27.1853.923" timestamp="1576844573026" />
-    <state x="602" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1577019505279">
+    <state x="736" y="424" width="523" height="168" key="ComposerInitDialogKey" timestamp="1577054591948">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
-    <state x="602" y="334" key="com.intellij.ide.util.TipDialog/67.27.1853.923@67.27.1853.923" timestamp="1577019505279" />
+    <state x="736" y="424" width="523" height="168" key="ComposerInitDialogKey/67.27.1853.923@67.27.1853.923" timestamp="1577054591948" />
+    <state x="602" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1577054081086">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="602" y="334" key="com.intellij.ide.util.TipDialog/67.27.1853.923@67.27.1853.923" timestamp="1577054081086" />
     <state x="618" y="236" width="709" height="528" key="find.popup" timestamp="1576838333637">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
