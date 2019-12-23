@@ -60,15 +60,17 @@ class LoginController extends Controller
     {
         $githubUser = Socialite::driver('github')->user();
         //check User
-
-
-        //add User
-        $user=User::create([
-            "name"=>$githubUser->getName(),
-            "username"=>$githubUser->getNickname(),
-            "email"=>$githubUser->getEmail(),
-            "provider_id"=>$githubUser->getId(),
-        ]);
+        $user= User::where('provider_id',$githubUser->getId())->first();
+        dd($user);
+        if (!$user) {
+            //add User
+            $user = User::create([
+                "name" => $githubUser->getName(),
+                "username" => $githubUser->getNickname(),
+                "email" => $githubUser->getEmail(),
+                "provider_id" => $githubUser->getId(),
+            ]);
+        }
         //log User
         Auth::login($user, true);
 
