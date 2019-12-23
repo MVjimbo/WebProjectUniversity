@@ -36,6 +36,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('/')}}">Home </a>
                         </li>
+                        <li><a class="nav-link" href="#">{{ route('login') }}</a>
+                        </li>
                         @if(\Auth::check())
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('/post/create')}}">Add Post</a>
