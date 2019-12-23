@@ -60,7 +60,7 @@ class PostController extends Controller
     }
 
     public function store(){
-        //$result=$this->checkDays();
+        //$result=$this->checkDays();//
         $result["success"]=1;
         if ($result["success"]==1) {
             $data = request()->validate([
