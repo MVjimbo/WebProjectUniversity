@@ -61,8 +61,8 @@ class LoginController extends Controller
         $githubUser = Socialite::driver('github')->user();
         //check User
         $user= User::where('provider_id',$githubUser->getId())->first();
-        dd($user);
         if (!$user) {
+
             //add User
             $user = User::create([
                 "name" => $githubUser->getName(),
