@@ -11,7 +11,7 @@
                         <h1>Add New Book</h1>
                     </div>
                     <div class="form-group row">
-                        <label for="title" class="col-md-4 col-form-label"><h5>Title</h5></label>
+                        <label for="title" class="col-md-4 col-form-label"><h5>Author and Title</h5></label>
 
                             <input id="title"
                                    type="text"
