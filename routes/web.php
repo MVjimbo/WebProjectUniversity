@@ -20,8 +20,9 @@ Auth::routes();
 
 
 
-Route::get('/post/create', 'PostController@create');
+
 Route::get('/post/{post}', 'PostController@show');
+Route::get('/post/create', 'PostController@create');
 
 Route::get('login/github', 'Auth\LoginController@redirectToProvider');
 Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback');
@@ -33,6 +34,8 @@ Route::group(['middleware'=> 'auth'], function() {
     Route::get('/post', 'PostController@index');
     Route::post('/post', 'PostController@store');
     Route::delete('/post/{post}', 'PostController@destroy');
+    Route::patch('/post/{post}', 'PostController@update');
+    Route::get('/post/{post}/edit', 'PostController@edit');
 
     Route::post('like/{post}','LikesController@store');
 

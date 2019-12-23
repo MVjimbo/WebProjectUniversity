@@ -7,7 +7,7 @@
                 <div class="d-flex justify-content-between align-items-baseline">
                     <h2>User Info</h2>
                     @can('update',$user->profile)
-                        <a href="/post/create">Add new post</a>
+                        <a href="/post/create">Add New Book</a>
                     @endcan
                 </div>
             </div>
@@ -38,10 +38,10 @@
         </div>
         <div class="row justify-content-center align-items-baseline mt-4">
             <div class="col-3">
-                <h2>Your Posts</h2>
+                <h2>Your Books</h2>
             </div>
             <div class="col-7 d-flex ">
-                <h5 class="mr-1">Number of posts</h5>{{ $user->posts->count() }}
+                <h5 class="mr-1">Number of books</h5>{{ $user->posts->count() }}
             </div>
         </div>
         @foreach($posts as $post)
@@ -52,7 +52,7 @@
                             <h3>{{$post->title}}</h3>
                         </a>
                         <div class="d-flex">
-                            <a class="btn btn-primary mr-1" href="#">Edit</a>
+                            <a class="btn btn-primary mr-1" href="/post/{{$post->id}}/edit">Edit</a>
                             <form class="mr-2" action="/post/{{$post->id}}" method="POST">
                                 @csrf
                                 @method('DELETE')
@@ -80,10 +80,10 @@
         @endforeach
         <div class="row justify-content-center align-items-baseline mt-4">
             <div class="col-3">
-                <h2>Posts Your Liked</h2>
+                <h2>Books Your Liked</h2>
             </div>
             <div class="col-7 d-flex ">
-                    <h5 class="mr-1">Number of posts</h5>{{ $user->likes->count() }}
+                    <h5 class="mr-1">Number of books</h5>{{ $user->likes->count() }}
             </div>
         </div>
         @foreach($user->likes as $post)

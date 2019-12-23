@@ -52,16 +52,15 @@ class PostController extends Controller
     public function create()
     {
         //$this->authorize('create');
-        //$result=$this->checkDays();
+        $result=$this->checkDays();
         $result["success"]=1;
         return view('posts/create',[
             "result"=>$result
     ]);
     }
 
-    public function store()
-    {
-        //$result=$this->checkDays();
+    public function store(){
+        $result=$this->checkDays();
         $result["success"]=1;
         if ($result["success"]==1) {
             $data = request()->validate([
@@ -84,4 +83,21 @@ class PostController extends Controller
         $result=$post->delete();
         return back();
     }
+
+    public function edit(Post $post)
+    {
+        return view("posts.edit",compact('post'));
+    }
+
+    public function update(Post $post)
+    {
+        $data=request()->validate([
+            "title"=>"required",
+            "description"=>"required",
+        ]);
+
+        $post->update($data);
+        return redirect("/profile/{$post->user_id}");
+    }
 }
+a
