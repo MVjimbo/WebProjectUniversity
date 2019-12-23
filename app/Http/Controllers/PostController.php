@@ -52,7 +52,7 @@ class PostController extends Controller
     public function create()
     {
         //$this->authorize('create');
-        $result=$this->checkDays();
+        //$result=$this->checkDays();
         $result["success"]=1;
         return view('posts/create',[
             "result"=>$result
@@ -60,7 +60,7 @@ class PostController extends Controller
     }
 
     public function store(){
-        $result=$this->checkDays();
+        //$result=$this->checkDays();
         $result["success"]=1;
         if ($result["success"]==1) {
             $data = request()->validate([
@@ -100,4 +100,3 @@ class PostController extends Controller
         return redirect("/profile/{$post->user_id}");
     }
 }
-a
