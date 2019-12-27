@@ -4,59 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7a3775e2cd235e136dad24f00bd2e0c",
+    "content-hash": "ee701c30629d6864c3e3e156bf8fa3c3",
     "packages": [
-        {
-            "name": "csanquer/pdo-service-provider",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/csanquer/PdoServiceProvider.git",
-                "reference": "2b07fd86e145916a47723ca08452ada4dc675d58"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/csanquer/PdoServiceProvider/zipball/2b07fd86e145916a47723ca08452ada4dc675d58",
-                "reference": "2b07fd86e145916a47723ca08452ada4dc675d58",
-                "shasum": ""
-            },
-            "require": {
-                "silex/silex": "~2.0",
-                "symfony/options-resolver": "~2.7|3.0.*"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Csanquer\\Silex\\PdoServiceProvider\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Charles Sanquer",
-                    "email": "charles.sanquer@gmail.com"
-                }
-            ],
-            "description": "a PDO database service provider for silex",
-            "keywords": [
-                "database",
-                "pdo",
-                "service provider",
-                "silex"
-            ],
-            "time": "2018-01-03T09:49:51+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
@@ -433,16 +382,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.1",
+            "version": "6.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "0274c05370a7bc9bb3a33838858253418bd7d14b"
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0274c05370a7bc9bb3a33838858253418bd7d14b",
-                "reference": "0274c05370a7bc9bb3a33838858253418bd7d14b",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/43ece0e75098b7ecd8d13918293029e555a50f82",
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +445,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2019-12-21T08:51:15+00:00"
+            "time": "2019-12-23T11:57:10+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1493,56 +1442,6 @@
             "time": "2019-12-15T19:35:24+00:00"
         },
         {
-            "name": "pimple/pimple",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/container": "^1.0"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Pimple": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "Pimple, a simple Dependency Injection Container",
-            "homepage": "http://pimple.sensiolabs.org",
-            "keywords": [
-                "container",
-                "dependency injection"
-            ],
-            "time": "2018-01-21T07:42:36+00:00"
-        },
-        {
             "name": "psr/container",
             "version": "1.0.0",
             "source": {
@@ -1936,93 +1835,6 @@
                 "uuid"
             ],
             "time": "2019-12-17T08:18:51+00:00"
-        },
-        {
-            "name": "silex/silex",
-            "version": "v2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silexphp/Silex.git",
-                "reference": "6bc31c1b8c4ef614a7115320fd2d3b958032f131"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Silex/zipball/6bc31c1b8c4ef614a7115320fd2d3b958032f131",
-                "reference": "6bc31c1b8c4ef614a7115320fd2d3b958032f131",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.3",
-                "pimple/pimple": "^3.0",
-                "symfony/event-dispatcher": "^4.0",
-                "symfony/http-foundation": "^4.0",
-                "symfony/http-kernel": "^4.0",
-                "symfony/routing": "^4.0"
-            },
-            "replace": {
-                "silex/api": "self.version",
-                "silex/providers": "self.version"
-            },
-            "require-dev": {
-                "doctrine/dbal": "^2.2",
-                "monolog/monolog": "^1.4.1",
-                "swiftmailer/swiftmailer": "^5",
-                "symfony/asset": "^4.0",
-                "symfony/browser-kit": "^4.0",
-                "symfony/config": "^4.0",
-                "symfony/css-selector": "^4.0",
-                "symfony/debug": "^4.0",
-                "symfony/doctrine-bridge": "^4.0",
-                "symfony/dom-crawler": "^4.0",
-                "symfony/expression-language": "^4.0",
-                "symfony/finder": "^4.0",
-                "symfony/form": "^4.0",
-                "symfony/intl": "^4.0",
-                "symfony/monolog-bridge": "^4.0",
-                "symfony/options-resolver": "^4.0",
-                "symfony/phpunit-bridge": "^3.2",
-                "symfony/process": "^4.0",
-                "symfony/security": "^4.0",
-                "symfony/serializer": "^4.0",
-                "symfony/translation": "^4.0",
-                "symfony/twig-bridge": "^4.0",
-                "symfony/validator": "^4.0",
-                "symfony/var-dumper": "^4.0",
-                "symfony/web-link": "^4.0",
-                "twig/twig": "^2.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Silex\\": "src/Silex"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch"
-                }
-            ],
-            "description": "The PHP micro-framework based on the Symfony Components",
-            "homepage": "http://silex.sensiolabs.org",
-            "keywords": [
-                "microframework"
-            ],
-            "abandoned": "symfony/flex",
-            "time": "2018-04-20T05:17:01+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2710,60 +2522,6 @@
                 "mime-type"
             ],
             "time": "2019-11-30T14:12:50+00:00"
-        },
-        {
-            "name": "symfony/options-resolver",
-            "version": "v3.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "77f7252e377e1dc021ba74defe12a19a45bb1212"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/77f7252e377e1dc021ba74defe12a19a45bb1212",
-                "reference": "77f7252e377e1dc021ba74defe12a19a45bb1212",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\OptionsResolver\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony OptionsResolver Component",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "config",
-                "configuration",
-                "options"
-            ],
-            "time": "2016-05-09T18:14:44+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3843,16 +3601,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.5.1",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "ee9699e79d8fcdd15c107e035d7b965e4fa854ac"
+                "reference": "ecbc8f3ed2cafca3cfca3d5febaae5a9d2899508"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/ee9699e79d8fcdd15c107e035d7b965e4fa854ac",
-                "reference": "ee9699e79d8fcdd15c107e035d7b965e4fa854ac",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/ecbc8f3ed2cafca3cfca3d5febaae5a9d2899508",
+                "reference": "ecbc8f3ed2cafca3cfca3d5febaae5a9d2899508",
                 "shasum": ""
             },
             "require": {
@@ -3861,8 +3619,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9 || ^1.0",
-                "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0",
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0 || ^5.0"
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -3871,7 +3629,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -3900,7 +3658,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2019-12-21T10:00:00+00:00"
+            "time": "2019-12-25T10:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -4059,23 +3817,22 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "5571962a4f733fbb57bede39778f71647fae8e66"
+                "reference": "f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/5571962a4f733fbb57bede39778f71647fae8e66",
-                "reference": "5571962a4f733fbb57bede39778f71647fae8e66",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be",
+                "reference": "f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be",
                 "shasum": ""
             },
             "require": {
                 "hamcrest/hamcrest-php": "~2.0",
                 "lib-pcre": ">=7.0",
-                "php": ">=5.6.0",
-                "sebastian/comparator": "^1.2.4|^3.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~5.7.10|~6.5|~7.0|~8.0"
@@ -4083,7 +3840,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -4121,7 +3878,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2019-11-24T07:54:50+00:00"
+            "time": "2019-12-26T09:49:15+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -4804,16 +4561,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.0",
+            "version": "8.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3ee1c1fd6fc264480c25b6fb8285edefe1702dab"
+                "reference": "7870c78da3c5e4883eaef36ae47853ebb3cb86f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3ee1c1fd6fc264480c25b6fb8285edefe1702dab",
-                "reference": "3ee1c1fd6fc264480c25b6fb8285edefe1702dab",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7870c78da3c5e4883eaef36ae47853ebb3cb86f2",
+                "reference": "7870c78da3c5e4883eaef36ae47853ebb3cb86f2",
                 "shasum": ""
             },
             "require": {
@@ -4883,7 +4640,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-12-06T05:41:38+00:00"
+            "time": "2019-12-25T14:49:39+00:00"
         },
         {
             "name": "scrivo/highlight.php",
@@ -5659,9 +5416,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "csanquer/pdo-service-provider": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

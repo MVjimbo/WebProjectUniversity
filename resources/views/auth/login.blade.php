@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header text-light bg-dark">{{ __('Login') }}</div>
+                <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -58,9 +58,11 @@
                                 </button>
 
                                 <a href="login/github" class="btn btn-primary">
-                                    Log In With GitHub
+                                    Login with GitHub
                                 </a>
                             </div>
+                        </div>
+                        <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">

@@ -11,34 +11,27 @@
 |
 */
 
-Route::get('/', 'PostController@index');/*function () {
-    return view('welcome');
-});*/
+Route::get('/', 'HomeController@index');
 
 Auth::routes();
-
-
-
-
-
-Route::get('/post/{post}', 'PostController@show');
-Route::get('/post/create', 'PostController@create');
-
 Route::get('login/github', 'Auth\LoginController@redirectToProvider');
 Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback');
 
+
 Route::group(['middleware'=> 'auth'], function() {
+    Route::get('/survey/create','SurveyController@create');
+    Route::post('/survey','SurveyController@store');
 
-    Route::get('/profile/{user}', 'ProfilesController@show')->name('profile.show');
+    Route::post('/question','QuestionController@store');
 
-    Route::get('/post', 'PostController@index');
-    Route::post('/post', 'PostController@store');
-    Route::delete('/post/{post}', 'PostController@destroy');
-    Route::patch('/post/{post}', 'PostController@update');
-    Route::get('/post/{post}/edit', 'PostController@edit');
-
-    Route::post('like/{post}','LikesController@store');
-
-    Route::post('/comment/{post}', 'CommentController@show');
-
+    Route::get('/profile/{user}','ProfileController@show');
 });
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/survey/{survey}','SurveyController@show');
+Route::patch('/survey/{survey}','SurveyController@update');
+
+
